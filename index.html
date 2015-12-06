@@ -1,44 +1,109 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>CONVERGAME - COMING SOON!</title>
-	<style>
-		html {font-size: 62.5%}
-		body {
-			background: #2c3e50;
-			color: #FEFEFE;
-			font-family: 'Oswald', sans-serif;
-		}
-		h1 {
-			font-size: 72px; font-size: 7.2rem;
-		}
-		h2 {
-			font-size: 48px; font-size: 4.8rem;
-		}
-		.coming-soon {
-			padding: 25vh 0;
-		}
-		.text-center {text-align: center;}
-	</style>	
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> [TAGLINE] | Convergame Engine</title>
+	<link href="public/css/style.css" rel="stylesheet">
 </head>
 <body>
-	<div class="coming-soon">
-		<h1 class="text-center">CONVERGAME</h1>
-		<h2 class="text-center">Coming Soon!</h2>
-	</div>
-	<script type="text/javascript">
-		WebFontConfig = {
-		google: { families: [ 'Oswald::latin' ] }
-		};
-		(function() {
-		var wf = document.createElement('script');
-		wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
-		  '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
-		wf.type = 'text/javascript';
-		wf.async = 'true';
-		var s = document.getElementsByTagName('script')[0];
-		s.parentNode.insertBefore(wf, s);
-		})(); 
+	<header>
+		<nav class="navbar navbar-default navbar-static-top">
+	      <div class="container">
+	        <div class="navbar-header">
+	          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+	            <span class="fa fa-bars"></span> Menu
+	          </button>
+	          <a class="navbar-brand" href="#">Convergame Engine</a>
+	        </div>
+	        <div id="navbar" class="collapse navbar-collapse">
+	          <ul class="nav navbar-nav">
+	            <li class="active"><a href="#">Home</a></li>
+	            <li><a href="#about">Documentation</a></li>
+	            <li><a href="#contact">Source Code</a></li>
+	          </ul>
+	        </div><!--/.nav-collapse -->
+	      </div>
+	    </nav>
+	</header>
+
+
+    <div class="container-fluid">
+      <div class="jumbotron hero">
+      	<h1 class="text-center">Convergame Engine</h1>
+      	<p class="text-center"></p>
+      	<p class="text-center"><a href="#" class="btn btn-lg btn-default">Download Now</a> <a href="#" class="btn btn-lg btn-default">Getting Started</a></p>
+      </div>
+    </div><!-- /.container-fluid -->
+
+    <div class="container">
+    	<div class="row">
+    		<div class="col-xs-6 col-sm-4">
+    			<div class="panel panel-default">
+    				<div class="panel-body text-center">
+    					<h3>Feature</h3>
+    					<span class="fa fa-2x fa-cloud-download"></span>
+    					<p>Here is some Lorem ipsum blah blah blah...</p>
+    				</div>
+    			</div>
+    		</div>
+    		<div class="col-xs-6 col-sm-4">
+    			<div class="panel panel-default">
+    				<div class="panel-body text-center">
+    					<h3>Feature</h3>
+    					<span class="fa fa-2x fa-cloud-download"></span>
+    					<p>Here is some Lorem ipsum blah blah blah...</p>
+    				</div>
+    			</div>
+    		</div>
+    		<div class="col-xs-6 col-sm-4">
+    			<div class="panel panel-default">
+    				<div class="panel-body text-center">
+    					<h3>Feature</h3>
+    					<span class="fa fa-2x fa-cloud-download"></span>
+    					<p>Here is some Lorem ipsum blah blah blah...</p>
+    				</div>
+    			</div>
+    		</div>
+    		<div class="col-xs-6 col-sm-4">
+    			<div class="panel panel-default">
+    				<div class="panel-body text-center">
+    					<h3>Feature</h3>
+    					<span class="fa fa-2x fa-cloud-download"></span>
+    					<p>Here is some Lorem ipsum blah blah blah...</p>
+    				</div>
+    			</div>
+    		</div>
+    		<div class="col-xs-6 col-sm-4">
+    			<div class="panel panel-default">
+    				<div class="panel-body text-center">
+    					<h3>Feature</h3>
+    					<span class="fa fa-2x fa-cloud-download"></span>
+    					<p>Here is some Lorem ipsum blah blah blah...</p>
+    				</div>
+    			</div>
+    		</div>
+    		<div class="col-xs-6 col-sm-4">
+    			<div class="panel panel-default">
+    				<div class="panel-body text-center">
+    					<h3>Feature</h3>
+    					<span class="fa fa-2x fa-cloud-download"></span>
+    					<p>Here is some Lorem ipsum blah blah blah...</p>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+	
+	<footer>
+		<p class="text-center">Convergame Creations<span id="year"></span></p>
+	</footer>
+	<script src="public/js/scripts.min.js"></script>
+	<script>
+		var date = new Date();
+		var year = " - " + date.getFullYear();
+		document.getElementById('year').innerText = year;
 	</script>
 </body>
 </html>

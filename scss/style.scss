@@ -1,0 +1,43 @@
+/* Imports */
+@import '../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss';
+@import '../bower_components/font-awesome/scss/font-awesome.scss';
+/* Vars */
+/** Palette Vars **/
+
+$white: #FEFEFE;
+$black: #333;
+/** Typography Vars **/
+$heading-font: 'Oswald', sans-serif;
+$body-font: 'Source Sans Pro', sans-serif;
+
+//** fonts path for font awesome
+$fa-font-path:  "../bower_components/font-awesome/fonts" !important;
+
+html {font-size: 62.5%}
+body {
+	color: $black;
+	font-family: $body-font;
+	background: $white;
+}
+h1, h2, h3, h4, h5, h6 {font-family: $heading-font;}
+h1 { 
+	font-size: 40px; font-size: 4.0rem;
+}
+h2 { 
+	font-size: 36px; font-size: 3.6rem;
+}
+h3 { 
+	font-size: 32px; font-size: 3.2rem;
+}
+h4 { 
+	font-size: 2.8px; font-size: 28rem;
+}
+h5 { 
+	font-size: 24px; font-size: 2.4rem;
+}
+h6 { 
+	font-size: 20px; font-size: 2.0rem;
+}
+label, li, p {
+	font-size: 20px; font-size: 2.0rem;	
+}
